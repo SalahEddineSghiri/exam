@@ -272,7 +272,7 @@ align-items: center;
 height: 201px;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+gap: 19px;
 position: relative;
 }
 .place{
@@ -285,11 +285,14 @@ position: relative;
 .om{
     position: absolute;
         position: absolute;
-    bottom: 56px;
+    bottom: 76px;
     right: 0; 
 }
 .social{
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+@media screen {
+    
 }
