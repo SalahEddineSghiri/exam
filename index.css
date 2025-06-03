@@ -132,3 +132,14 @@ object-fit: cover;
     font-size: 16px;
     color:rgba(0, 0, 0, 1)  ;
 }
+.sect3{
+    width: 1306px;
+height: 236px;
+margin-top: 5rem;
+background-image: url(./assets/images/Rectangle\ 8.png);
+display: flex;
+gap:30px;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
