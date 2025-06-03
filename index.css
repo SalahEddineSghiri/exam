@@ -231,7 +231,7 @@ align-items: center;
 height: 163px;
 display: flex;
 flex-direction: row;
-gap: 50px;
+gap: 10px;
 
 }
 .par{
@@ -249,4 +249,47 @@ height: 40px;
 object-fit: cover;
 justify-self: center;
 
+}
+.sect6{
+    width: 1366px;
+height: 400px;
+top: 2904px;
+background-color: rgba(81, 80, 80, 1);
+
+}
+.reg
+{
+    width: 1366px;
+height: 385px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
+.cwi{
+    width: 185px;
+height: 201px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+position: relative;
+}
+.place{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    background: transparent
+}
+.om{
+    position: absolute;
+        position: absolute;
+    bottom: 56px;
+    right: 0; 
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
