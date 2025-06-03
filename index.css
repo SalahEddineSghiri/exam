@@ -293,6 +293,64 @@ position: relative;
     flex-direction: row;
     gap: 20px;
 }
-@media screen {
-    
+@media screen and (max-width:1024px){
+    .promo {
+    width: 1024px;
+    height: 40px;
+    background-color: rgba(130, 99, 0, 1);
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.navbar {
+    display: flex
+;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    height: 189px;
+    width: 1024px;
+    gap: 18px;
+}
+.right {
+   margin: 0;
+}
+.sous{
+    width: 1024px;
+}
+.sect2,.sect3,.sect4,.sect5,.sect6,.deu,.part{
+    width: 1024px;
+}
+.r{
+    display: none;
+}
+.one {
+    top: 134.5rem;
+    left: 7rem;
+}
+.two {
+    top: 134.5rem;
+    left: 28rem;
+}
+.three{
+    top: 134.5rem;
+    left: 49rem;
+}
+.four{
+    top: 155rem;
+    left: 29rem;
+}
+.six{
+        top: 155rem;
+    left: 49rem;
+}
+.five{
+  
+    top: 155rem;
+    left: 7rem;
+}
+
 }
